@@ -1,0 +1,132 @@
+/*colors and fonts*/
+
+body {
+	background-color: #EDE7D9;
+	color: #A49694;
+	font-family: font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	}
+
+h1, h2, h3 {
+	font-family:'Raleway', sans-serif;
+			}
+
+h1 {
+	color: #D5A021;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 37px;
+    text-transform: uppercase;
+	}
+
+h2 {
+	color: #4B4237;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-transform: uppercase;
+	}
+
+a {
+	font-family:'Raleway', sans-serif;
+	text-decoration: none;
+	color: #D5A021
+	}
+a:hover {
+	color : #989572;
+	}  
+	
+div {
+	background: white;
+	border: 2px;
+	margin: 10px;
+	}
+
+/*custom design with class (99% of your design)*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+			}
+
+	@media (max-width: 760px) {
+		.container {
+			width: 600px;
+					}
+							}
+
+	@media (max-width: 500px) {
+		.container {
+			width: 400px;
+					}
+							}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+			}
+
+.img-circle {
+	border-radius: 50%;
+			}
+
+.btn-blue {
+	background-color: #D5A021;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+			}
+
+.btn-blue:hover {
+	background-color: #7E5920;
+	color: white;
+				}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+			}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+			}
+
+.list-inline i {
+	font-size: 50px;
+			}
+
+
+
+/*Design adjustments using id (1% design remaining)*/
+
+#introduction p {
+	margin-bottom: 40px;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
